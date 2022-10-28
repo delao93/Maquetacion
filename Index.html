@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <style>
+
+        table, td, th{ 
+            border: 1px solid ;
+        }
+        
+        table{ 
+            border-collapse: collapse;
+        }
+
+        .blue{
+            border: none;
+            background-color: blue;
+            color: white;
+        }
+
+        .red{ 
+            border: none;
+            background-color: red;
+            color: white;
+        }
+
+        #green{
+            text-decoration: none;
+            color: white;
+        }
+
+        button{
+            background-color: green;
+            border: none;
+            border-radius: 5px;
+
+        }
+
+        img{
+            padding-right: 2px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th><button><img src="icon/Signo mas.png" alt="" width="10px"><a href="Producto.html" id="green">Nuevo</a></button></th>
+            <th>Codigo</th>
+            <th>Descripcion</th>
+            <th>Codigo de barra</th>
+            <th>Precio unitario</th>
+            <th>Stock</th>
+            <th>Proveedor</th>
+            <th>Estado</th>
+            <th>Categoria</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><button class="blue"><img src="icon/Lapiz.png" alt="" width="10px">Editar</button> <button class="red"><img src="icon/basura.png" alt="" width="10px">Eliminar</button></td>
+                <td>1</td>
+                <td>Martillo</td>
+                <td>101253151489</td>
+                <td>2.50</td>
+                <td>10</td>
+                <td>Proveedor 1</td>
+                <td>Si</td>
+                <td>Herramientas</td>
+            </tr>
+            <tr>
+                <td><button class="blue"><img src="icon/Lapiz.png" alt="" width="10px">Editar</button> <button class="red"><img src="icon/basura.png" alt="" width="10px">Eliminar</button></td>
+                <td>2</td>
+                <td>Kit de Herramientas</td>
+                <td>258981235849</td>
+                <td>10.50</td>
+                <td>20</td>
+                <td>Proveedor 2</td>
+                <td>Si</td>
+                <td>Herramientas</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
